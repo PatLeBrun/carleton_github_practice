@@ -114,3 +114,7 @@ pen_fig
 ggsave("output/pen_fig.jpeg", pen_fig, # save figure to output
        width = 7,
        height = 5)
+
+# another analysis --------------------------------------------------------
+
+lm(body_mass_g ~ sex, pen.data)

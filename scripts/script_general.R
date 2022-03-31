@@ -114,17 +114,3 @@ pen_fig
 ggsave("output/pen_fig.jpeg", pen_fig, # save figure to output
        width = 7,
        height = 5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
